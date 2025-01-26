@@ -810,6 +810,21 @@ test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.2)", "pytest-
 type = ["mypy (>=1.11.2)"]
 
 [[package]]
+name = "plotly"
+version = "5.24.1"
+description = "An open-source, interactive data visualization library for Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "plotly-5.24.1-py3-none-any.whl", hash = "sha256:f67073a1e637eb0dc3e46324d9d51e2fe76e9727c892dde64ddf1e1b51f29089"},
+    {file = "plotly-5.24.1.tar.gz", hash = "sha256:dbc8ac8339d248a4bcc36e08a5659bacfe1b079390b8953533f4eb22169b4bae"},
+]
+
+[package.dependencies]
+packaging = "*"
+tenacity = ">=6.2.0"
+
+[[package]]
 name = "protobuf"
 version = "5.29.3"
 description = ""
@@ -1159,13 +1174,13 @@ files = [
 
 [[package]]
 name = "streamlit"
-version = "1.41.1"
+version = "1.41.0"
 description = "A faster way to build and share data apps"
 optional = false
 python-versions = "!=3.9.7,>=3.9"
 files = [
-    {file = "streamlit-1.41.1-py2.py3-none-any.whl", hash = "sha256:0def00822480071d642e6df36cd63c089f991da3a69fd9eb4ab8f65ce27de4e0"},
-    {file = "streamlit-1.41.1.tar.gz", hash = "sha256:6626d32b098ba1458b71eebdd634c62af2dd876380e59c4b6a1e828a39d62d69"},
+    {file = "streamlit-1.41.0-py2.py3-none-any.whl", hash = "sha256:66a0e7ccb6c685b52782966f4a2fe63f757627eeaad0ca3f5b335b5bf191e7bd"},
+    {file = "streamlit-1.41.0.tar.gz", hash = "sha256:87c20027fcbc8690ad0955b7e89aea2276d14fca2c8c4b54a251bf2b66b40201"},
 ]
 
 [package.dependencies]
@@ -1333,4 +1348,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "b7aea3ccf59bbff4bb0c864c931433246a3c619a6086bbc7d2a75f5552b2e3df"
+content-hash = "3441a7c36ffe7d6b63d85f890655bf91e86c7329bf539d1f6083dc8142b38ec1"

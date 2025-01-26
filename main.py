@@ -2,6 +2,8 @@ import streamlit as st
 
 
 st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="auto",
     page_title="Hello",
     page_icon="👋",
 )
@@ -30,9 +32,12 @@ st.markdown(
             ---
             
             ### Projects and Links here:
-            1. **asdfasdfasdfasd
-            2. **asdfasdfasdfasd
-            3. **asdfasdfasdfasd
+            1. **Schedule in Django:** (https://github.com/greghonox/AGENDA)
+            2. **Bank in Django:** (https://github.com/greghonox/BRASILPREV)
+            3. **FastApi:** (https://github.com/greghonox/FASTAPIZERO)
+            4. **TRF with Selenium:** (https://github.com/greghonox/TRF5)
+            5. **Exercises with Crawler:** (https://github.com/greghonox/desafio-crawler)
+            6. **Exercises with Django and unitary tests:** (https://github.com/greghonox/TOURHOUSE)
             ---
             
             ### Call me:
@@ -44,3 +49,5 @@ st.markdown(
             * **Soft skills:** I liked squad worked, i am very communication, solved problems.
 """
 )
+
+st.page_link("pages/app.py", label="Sales Dashboard", icon="📊")
