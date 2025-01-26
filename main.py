@@ -42,6 +42,7 @@ st.markdown(
             4. **TRF with Selenium:** (https://github.com/greghonox/TRF5)
             5. **Exercises with Crawler:** (https://github.com/greghonox/desafio-crawler)
             6. **Exercises with Django and unitary tests:** (https://github.com/greghonox/TOURHOUSE)
+            7. **Many projects in my Github:** (https://github.com/greghonox)
             ---
             
             ### Call me:
