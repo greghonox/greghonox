@@ -16,8 +16,11 @@ with col2:
     st.markdown(
         """
             # Welcome! You be view my Resume 📄
-            ### My name is Gregorio Honorato
-            ### I am a developer and I am passionate about technology.
+            ### 🤝🏿 My name is Gregorio Honorato.
+            ### 👨🏿‍💻 I am a developer and I am passionate about technology.
+            ### 💁🏿‍♂️ I will got talking about my experience and my skills.
+            ### 🙋🏿‍♂️ This is me.
+            ### 📚 My contacts is below page.
 """
     )
 
