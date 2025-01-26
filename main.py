@@ -20,13 +20,20 @@ with col2:
             ### 👨🏿‍💻 I am a developer and I am passionate about technology.
             ### 💁🏿‍♂️ I will got talking about my experience and my skills.
             ### 🙋🏿‍♂️ This is me.
-            ### 📚 My contacts is below page.
+            ### 📚 My contact page is below.
+            ---
 """
     )
 
 st.markdown(
     """
+            ### Call me:
+            * 📫**Email:** greghono@gmail.com
+            * 🪪**LinkedIn:** (https://www.linkedin.com/in/gregorio-honorato-78803989/)
+            * 📱**Whatsapp:** (https://web.whatsapp.com/send/?phone=5519992509913).
+            * 📻**Telegram:** (https://t.me/greghono)
             ---
+            
             ### Skills:
             * **Languages Favorite :** Python, SQL, JavaScript
             * **Frameworks:** Django, Flask, FastAPI, Selenium, Pytest, and many others.
@@ -42,16 +49,15 @@ st.markdown(
             4. **TRF with Selenium:** (https://github.com/greghonox/TRF5)
             5. **Exercises with Crawler:** (https://github.com/greghonox/desafio-crawler)
             6. **Exercises with Django and unitary tests:** (https://github.com/greghonox/TOURHOUSE)
-            7. **Many projects in my Github:** (https://github.com/greghonox)
+            7. **Many projects on my Github:** (https://github.com/greghonox)
             ---
-            
-            ### Call me:
-            * 📫**Email:** greghono@gmail.com
-            * 🪪**LinkedIn:** (https://www.linkedin.com/in/gregorio-honorato-78803989/)
-            * 📱**Whatsapp:** (https://web.whatsapp.com/send/?phone=5519992509913).
-            * 📻**Telegram:** (https://t.me/greghono)
+
             ---
-            * **Soft skills:** I liked squad worked, i am very communication, solved problems.
+            * **Soft skills:** 
+            - Team worker
+            - Communicative
+            - Hard worker
+            - Problem solver
 """
 )
 
