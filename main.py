@@ -16,8 +16,11 @@ with col2:
     st.markdown(
         """
             # Welcome! You be view my Resume 📄
-            ### My name is Gregorio Honorato
-            ### I am a developer and I am passionate about technology.
+            ### 🤝🏿 My name is Gregorio Honorato.
+            ### 👨🏿‍💻 I am a developer and I am passionate about technology.
+            ### 💁🏿‍♂️ I will got talking about my experience and my skills.
+            ### 🙋🏿‍♂️ This is me.
+            ### 📚 My contacts is below page.
 """
     )
 
@@ -29,6 +32,7 @@ st.markdown(
             * **Frameworks:** Django, Flask, FastAPI, Selenium, Pytest, and many others.
             * **Tools:** Git, Docker, Gcp, Heroku
             * **Databases:** PostgreSQL, MongoDB, Mysql, Sqlite
+            * **Others:** HTML, CSS, Bootstrap, Pandas, Numpy, Matplotlib, Seaborn, Plotly, Streamlit, and many others.
             ---
             
             ### Projects and Links here:
