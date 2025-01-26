@@ -5,24 +5,42 @@ st.set_page_config(
     page_title="Hello",
     page_icon="👋",
 )
-st.write("# Welcome to Streamlit! 👋")
 
-st.sidebar.success("Select a demo above.")
+col1, col2 = st.columns(2)
+
+with col1:
+    st.image("img/my.png", width=600)
+with col2:
+    st.markdown(
+        """
+            # Welcome! You be view my Resume 📄
+            ### My name is Gregorio Honorato
+            ### I am a developer and I am passionate about technology.
+"""
+    )
 
 st.markdown(
     """
-    Streamlit is an open-source app framework built specifically for
-    Machine Learning and Data Science projects.
-    **👈 Select a demo from the sidebar** to see some examples
-    of what Streamlit can do!
-    ### Want to learn more?
-    - Check out [streamlit.io](https://streamlit.io)
-    - Jump into our [documentation](https://docs.streamlit.io)
-    - Ask a question in our [community
-        forums](https://discuss.streamlit.io)
-    ### See more complex demos
-    - Use a neural net to [analyze the Udacity Self-driving Car Image
-        Dataset](https://github.com/streamlit/demo-self-driving)
-    - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+            ---
+            ### Skills:
+            * **Languages Favorite :** Python, SQL, JavaScript
+            * **Frameworks:** Django, Flask, FastAPI, Selenium, Pytest, and many others.
+            * **Tools:** Git, Docker, Gcp, Heroku
+            * **Databases:** PostgreSQL, MongoDB, Mysql, Sqlite
+            ---
+            
+            ### Projects and Links here:
+            1. **asdfasdfasdfasd
+            2. **asdfasdfasdfasd
+            3. **asdfasdfasdfasd
+            ---
+            
+            ### Call me:
+            * 📫**Email:** greghono@gmail.com
+            * 🪪**LinkedIn:** (https://www.linkedin.com/in/gregorio-honorato-78803989/)
+            * 📱**Whatsapp:** (https://web.whatsapp.com/send/?phone=5519992509913).
+            * 📻**Telegram:** (https://t.me/greghono)
+            ---
+            * **Soft skills:** I liked squad worked, i am very communication, solved problems.
 """
 )
