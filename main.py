@@ -53,7 +53,7 @@ st.markdown(
             ---
 
             ---
-            * **Soft skills:** 
+            ### Soft skills:
             - Team worker
             - Communicative
             - Hard worker
