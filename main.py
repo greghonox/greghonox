@@ -52,7 +52,6 @@ st.markdown(
             7. **Many projects on my Github:** (https://github.com/greghonox)
             ---
 
-            ---
             ### Soft skills:
             - Team worker
             - Communicative
