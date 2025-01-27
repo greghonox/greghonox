@@ -1,5 +1,5 @@
 import streamlit as st
-from pages.pages.scripts import NewCNNBrasil
+from pages.scripts import NewCNNBrasil
 
 
 st.title("Solicitação de Dados📩")
