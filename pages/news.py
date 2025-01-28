@@ -19,7 +19,7 @@ def get_news_cnn_brasil():
     return NewCNNBrasil().show_news()
 
 
-if st.button("Solicitar ultimas mensagens do grupo de vagas no telegram..."):
+if st.button("Pegar ultimas noticias no BBC..."):
     with st.spinner("Buscando dados..."):
         news = get_news_cnn_brasil()
     for item in news:
