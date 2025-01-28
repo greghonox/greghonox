@@ -59,5 +59,3 @@ st.markdown(
             - Problem solver
 """
 )
-
-st.page_link("pages/app.py", label="Sales Dashboard", icon="📊")
