@@ -9,7 +9,7 @@ st.markdown(
 )
 
 msg_default = "Não esqueça de deixar seu contato para que eu possa responder..."
-prompt = st.chat_input("Escreva algo que receberei no telegram..." + msg_default)
+prompt = st.chat_input(msg_default)
 if prompt:
     TeleGram(prompt)
     st.success(
