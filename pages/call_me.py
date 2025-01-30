@@ -1,6 +1,7 @@
 import streamlit as st
 from pages.scripts import TeleGram
 
+
 st.title("Contato📩")
 st.markdown(
     """

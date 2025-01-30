@@ -1,4 +1,5 @@
 import streamlit as st
+from pages.scripts import menu_app
 
 
 st.set_page_config(
@@ -59,3 +60,5 @@ st.markdown(
             - Problem solver
 """
 )
+
+menu_app()

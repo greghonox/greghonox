@@ -1,4 +1,5 @@
 import streamlit as st
+from pages.scripts import menu_app
 from pages.scripts import JobCampinas
 
 st.title("💻Busca de Emprego 🏢")
@@ -19,3 +20,5 @@ if submit_button:
     if search_job.job_listings:
         st.dataframe(search_job.job_listings)
     st.success("A sua buscar terminou com sucesso !!!")
+
+menu_app()

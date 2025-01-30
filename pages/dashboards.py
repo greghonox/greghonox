@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pages.scripts import menu_app
 
 
 @st.cache_resource
@@ -213,3 +214,5 @@ with tab3:
             title=f"Top {qt_seller} Local de Vendas",
         )
         st.plotly_chart(fig_seller_incomes_stage, use_container_width=True)
+
+menu_app()
