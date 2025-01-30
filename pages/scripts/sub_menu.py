@@ -10,6 +10,6 @@ def menu_app():
     [![Find Jobs]({generate_button}/busca-emprego-red)](busca_emprego)
     [![News Now]({generate_button}/news_now-cnn-yellow)](news_now_cnn)
     [![Dash Boards]({generate_button}/dash-boards-pink)](dashboards)
-    [![Aboult]({generate_button}/sobre-red)]()    
+    [![About]({generate_button}/sobre-red)]()    
     """
     st.write(content, unsafe_allow_html=True)
