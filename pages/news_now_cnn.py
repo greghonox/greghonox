@@ -1,6 +1,6 @@
 import streamlit as st
 from pages.scripts import NewCNNBrasil
-
+from pages.scripts import menu_app
 
 st.title("Solicitação de Dados📩")
 st.markdown(
@@ -36,3 +36,5 @@ if st.button("Pegar ultimas noticias no CNN..."):
             unsafe_allow_html=True,
         )
     st.success("Dados carregados com sucesso!")
+
+menu_app()

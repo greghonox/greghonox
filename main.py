@@ -1,11 +1,12 @@
 import streamlit as st
+
 from pages.scripts import menu_app
 
 
 st.set_page_config(
     layout="wide",
     initial_sidebar_state="auto",
-    page_title="Hello",
+    page_title="Hey Gui, Welcome to my Resume",
     page_icon="👋",
 )
 
@@ -58,6 +59,7 @@ st.markdown(
             - Communicative
             - Hard worker
             - Problem solver
+            ---
 """
 )
 
